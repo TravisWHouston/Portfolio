@@ -3,7 +3,7 @@
 }
 
 .navbar {
-    background-color: white; 
+    background-color:rgb(85, 8, 8); 
     border-bottom:3px solid black;
     height: 100px;
     width: 100%;
@@ -13,23 +13,24 @@
 }
 h1 {
     font-size: 55px;
+    font-family: 'Philosopher', sans-serif;
+
 }
 .name {
     background-color: black;
     width: 220px;
     color: white;
-    margin-left: 50px;
-    font-family: fantasy;
-    
-    
-    
+    margin-left: 165px;   
 }
 .links {
     position: relative;
     background-color: black;
-    font-size: 40px;
+    font-size: 30px;
     padding-top: 20px;
     margin-right:30px;
+    font-family: 'Philosopher', sans-serif;
+
+    
 }
 a {
     color:white;
@@ -43,16 +44,70 @@ a:active{
 a:hover{
     text-decoration: underline;
 }
-#container1 {
+.container {
     background-color: white;
-    width: 1200px;
-    margin-left: 10%;
+    width: 960px;
+    margin-left: 23%;
     margin-top:25px;
     border: solid 3px black;
+    height:700px;
     
 
 }
 #body {
     background-color: lightgray;
 }
+.row1 {
+    justify-content: space-between;
+}
+.row2 {
+    justify-content: space-between;
+}
+h2 {
+    font-size:40px;
+    text-align: center;
+    text-decoration:underline;
 
+}
+.mepic {
+    height: 230px; 
+    margin: 20px;
+}
+.me {
+    position: relative;
+    top:50px;
+}
+.linkchunk {
+    position: relative;
+    padding-top:15px;
+    margin: auto 175px;
+}
+form {
+    position: relative;
+    top:50px;
+    left:5%;
+}
+.Pname,.email {
+    height: 25px;
+    width: 90%;
+}
+#message {
+    width: 90%;
+    height:300px;
+}
+img {
+    border: 3px solid black;
+}
+h3 {
+    color: white;
+    position: relative;
+    background: black;
+    height: 27px;
+    width: 175px;
+    bottom: 45px;
+    text-align: center;
+}
+.row1, .row2 {
+    display: flex;
+    justify-content: space-between;
+}
