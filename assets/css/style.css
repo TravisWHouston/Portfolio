@@ -56,6 +56,7 @@ a:hover{
 }
 #body {
     background-color: lightgray;
+    text-align: center;
 }
 .row1 {
     justify-content: space-between;
@@ -85,7 +86,6 @@ h2 {
 form {
     position: relative;
     top:50px;
-    left:5%;
 }
 .Pname,.email {
     height: 25px;
@@ -107,7 +107,7 @@ h3 {
     bottom: 45px;
     text-align: center;
 }
-.row1, .row2 {
+.row1, .row2, .row3 {
     display: flex;
     justify-content: space-between;
 }
